@@ -4,11 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Олексій Ткаченко</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
+  <div class="container">
+    <h1>Набір чисел</h1>
+    <p>Введіть 10 дійсних чисел (від 10 до 1000):</p>
+    <input type="text" id="numbers" placeholder="15, 20, 35, 40, 55, 60, 75, 80, 95, 100">
+    <button onclick="calculate()">Розрахувати</button>
+    
+    <div id="error" class="error"></div>
+    <div id="results" class="results"></div>
+  </div>
   <footer>
     <i>Розробник: Олексій Ткаченко</i> 
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
