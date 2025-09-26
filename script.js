@@ -59,11 +59,11 @@ function showResults(min, max, avg) {
         <h3>Results:</h3>
         <div class="result-item">
             <span class="result-label">Minimum:</span>
-            <span class="result-value">${min}</span>
+            <span class="result-value min-value">${min}</span>
         </div>
         <div class="result-item">
             <span class="result-label">Maximum:</span>
-            <span class="result-value">${max}</span>
+            <span class="result-value max-value">${max}</span>
         </div>
         <div class="result-item">
             <span class="result-label">Average:</span>

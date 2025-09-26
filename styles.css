@@ -93,3 +93,21 @@ button:hover {
 .result-value {
     color: #2c3e50;
 }
+
+/* Colors for min and max */
+.min-value {
+    color: #005A9C;  
+    font-weight: bold;
+}
+
+.max-value {
+    color: #e74c3c; 
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    color: #7f8c8d;
+}
